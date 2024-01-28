@@ -1,0 +1,22 @@
+{
+  "user_id": 1,
+  "name": "Jack",
+  "lastname": "Pupkin",
+  "age": 26,
+  "email": "pupkin@gmail.com",
+  "city": "Minsk",
+  "tags": [
+    {
+      "id": 1,
+      "channel": "RTB"
+    },
+    {
+      "id": 2,
+      "channel": "OOR"
+    },
+    {
+      "id": 3,
+      "channel": "1QR"
+    }
+  ]
+}

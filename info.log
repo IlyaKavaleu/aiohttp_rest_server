@@ -1,0 +1,8 @@
+{
+    "datetime": "2024-01-22T12:16:56",
+    "level": "INFO",
+    "message": "127.0.0.1",
+    "module": "srv",
+    "function": "create_app",
+    "line": 12
+}
