@@ -6,8 +6,10 @@ BASE_DIR = Path(__file__).parent.parent.absolute()
 DEBUG = True
 if DEBUG:
     LOGGER = "dev"
+    EXP_TIME = 60 * 60 * 24
 else:
     LOGGER = "prod"
+    EXP_TIME = 120
 DATABASE = {
     'connections': {
         'default': {
@@ -22,7 +24,10 @@ DATABASE = {
         }
     },
     'apps': {
-        'account': {'models': ['src.arest.api.account.models', 'aerich.models'], 'default_connection': 'default'},
+        'account': {
+            'models': ['src.arest.api.account.models', 'aerich.models'],
+            'default_connection': 'default'
+        },
     },
     'use_tz': False,
     'timezone': 'UTC',
